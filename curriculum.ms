@@ -11,7 +11,7 @@
 
 .nr PS 10
 .LP
-.B "INFORMACION"
+.B "INFORMACIÓN"
 .ss 100 0
 .B "PERSONAL"
 .ss 12 0
@@ -20,16 +20,16 @@
 Samuele Tonarini
 
 .mk
-.PSPIC -I 0.5 samu.ps 1.6
+.PSPIC -I 0.3 samu.ps 1.8
 .rt
 .nr PI 21.5n 
-.nr PS 12
+.nr PS 10.5
 .LP
 .RS
 .B Direccion:
-Carrer Pastora, 45, 07360 Lloseta (Espana)
+Carrer Pastora, 45, 07360 Lloseta (España)
 
-.B Telefono:
+.B Telefóno:
 +34 653 048 449
 
 .B Email:
@@ -39,13 +39,12 @@ samueletonarini@gmail.com
 stonarini@cifpfbmoll.eu
 
 .LS
-.B Sexo
+.B Sexo:
 Hombre |
-.B "Fecha de Nacimiento"
+.B "Fecha de Nacimiento:"
 05/04/2003 
  
-.B Nacionalidad
-Italiana
+.B Nacionalidad: " Italiana"
+
+\D't 0.2p'\v'-0.17i'\l'4.5i'\h'-4.5i'
 .RE
-
-
