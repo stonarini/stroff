@@ -11,8 +11,9 @@ pic metodologias_de_desarrollo.ms | groff -m ms -Kutf8 -Tpdf > <output-name>.pdf
 ```
 This command preprocess the graphs with ```pic``` and then compiles the document to pdf, using the ```ms``` macro. Then I use the option -K to specify the encoding, because without this option some spanish characters wouldn't render correctly.
 
-To compile the curriculum.ms document with the .ps photo use:  
+To compile the curriculum.ms document with the .pdf photo use:  
 ```sh
-groff -m ms curriculum.ms | ps2pdf - <output-name>.pdf
+groff -m mspdf -U -Kutf8 -Tpdf curriculum.ms > <output-name>.pdf
 ```
-To add photos to a groff document we firstly need to compile it to PostScript and then convert it into pdf. This command uses the default PostScript output of groff and pipes it into ps2pdf, where the *-* is replaces with PostScript STDIN and outputs the pdf result to \<output-name>.pdf
+To add links and photos to a pdf we need to use the mspdf macro, that is a expanded version of ms with utilities for pdfs.  
+One of this utilities is ```.pdfhref```, that lets us add links to the pdf. Another is PDFPIC, that is like PSPIC but for pdfs; To use PDFPIC we need to use the -U option.  
