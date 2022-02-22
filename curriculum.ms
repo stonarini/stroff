@@ -1,14 +1,12 @@
 .fam H \" font family
 .nr HM 0.7i \" header margin
-.nr FM 0.75i \" footer margin
+.nr FM 0.6i \" footer margin
 .ss 12 0 \" interword spacing
 .nr PS 11 \" point size/font size
 .nr VS 14 \" vertical spacing
 .nr PD 0.4v \" paragraph distance
 .nr PO 0.9i \" left margin
-.nr LL 6.8i \" line width 
-
-
+.nr LL 6.6i \" line width 
 .nr PS 10
 .LP
 .B "INFORMACIÓN"
@@ -28,10 +26,10 @@ Samuele Tonarini
 .RS
 .B Direccion:
 Carrer Pastora, 45, 07360 Lloseta (España)
-
+.LP
 .B Telefóno:
 +34 653 048 449
-
+.LP
 .B Emails:
 .pdfhref W -D mailto:samueletonarini@gmail.com samueletonarini@gmail.com
 .nr PI 7.8n
@@ -40,12 +38,15 @@ Carrer Pastora, 45, 07360 Lloseta (España)
 
 .LS
 .B Sexo:
-Hombre |
+Hombre
+.LP
 .B "Fecha de Nacimiento:"
 05/04/2003 
- 
+.LP 
 .B Nacionalidad: " Italiana"
-
+.LP
+.B "Carnet de counducir:" " B1 desde 2021, vehiculo proprio"
+.LP
 .B Idiomas: " Italiano, Español, Ingles"
 
 \D't 0.2p'\v'-0.17i'\l'4.5i'\h'-4.5i'
@@ -110,4 +111,4 @@ CC Es Liceu 2019-2021
 .pdfhref W -D https://www.hostileobject.xyz hostileobject.xyz
 .LP
 .B "Check out this document in groff:"
-.pdfhref W -D https://www.github.com/stonarini/stroff/curriculum.ms curriculum.ms
+.pdfhref W -D https://www.github.com/stonarini/stroff/blob/main/curriculum.ms curriculum.ms
