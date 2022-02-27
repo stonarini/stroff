@@ -1,6 +1,6 @@
 .fam H \" font family
-.nr HM 0.7i \" header margin
-.nr FM 0.6i \" footer margin
+.nr HM 0.6i \" header margin
+.nr FM 0.2i \" footer margin
 .ss 12 0 \" interword spacing
 .nr PS 11 \" point size/font size
 .nr VS 14 \" vertical spacing
@@ -54,13 +54,17 @@ Hombre
 .nr PS 10
 .LP
 .B "DESCRIPCIÓN PERSONAL"
-.nr PS 12
+.nr PS 11
 .LP
 Actualmente estudiando desarrollo web full-stack. Además de estar familiarizado con las tecnologías HTML, CSS, y JavaScript, he usado frameworks y librerías como React.js, Next.js, Express, y Node.
 .nr PD 0 
 .LP
 También tengo experiencia al crear, gestionar y mantener base de datos relacionales (MySQL, MariaDB y PostgreSQL).  
 Algunos de mis proyectos personales comprenden API REST en React, Static Site Generator con Python y HUGO, aplicaciones gráficas en C++ con SFML.
+.LP
+Familiarizado con sistemas operativos UNIX-based como Debian, CentOS, FreeBSD y Gentoo entre otros.
+.LP
+Otras herramientas con las que tengo experiencia son Git y GitHub, Docker, VIM, Nginx, Bash y RegEx.
 .nr PD 1.2v 
 .nr PS 10
 .LP
@@ -110,5 +114,5 @@ CC Es Liceu 2019-2021
 .B Website:
 .pdfhref W -D https://www.hostileobject.xyz hostileobject.xyz
 .LP
-.B "Check out this document in groff:"
+.B "Echa un vistazo a este documento en groff:"
 .pdfhref W -D https://www.github.com/stonarini/stroff/blob/main/curriculum.ms curriculum.ms
