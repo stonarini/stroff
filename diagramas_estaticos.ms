@@ -11,7 +11,7 @@
 .nr LL 7i \" line width 
 .RP no \" Cover; don't repeat in second page
 .TL \" title
-Actividad 3 - Diagramas Estaticos
+Actividad 3 - Diagramas Estáticos
 .AU \" author
 Samuele Tonarini y Erik Pardillo
 .AI \" institute
@@ -55,14 +55,14 @@ Introducción
 .LP
 .nr PS 11
 .LP
-En esta practica se describen los diferentes diagramas UML de tipo estatico, viendo primero los de clase, 
-componetes y objetos, para despues pasar por los de perfil, estructura compuesta, despliegue y, al final, de paquete. 
+En esta practica se describen los diferentes diagramas UML de tipo estático, viendo primero los de clase, 
+componentes y objetos, para después pasar por los de perfil, estructura compuesta, despliegue y, al final, de paquete. 
 
-Estos diagramas son el estandard para representar diferentes modelos de un determinado sistema;
+Estos diagramas son el estándar para representar diferentes modelos de un determinado sistema;
 Principalmente se usan para que personas no familiarizadas con un programa en especifico y/o no familiarizadas con el desarrollo del software en si puedan entender las
 diferentes partes de un sistema, como funcionan, como se relacionan, y como se representan en la vida real.
 
-Ademas, este tipo de diagramas nos permiten visualizar el sistema de manera abstracta, pudiendo analizarlo antes de la implementacion y pudiendo detectar y solucionar problemas
+Ademas, este tipo de diagramas nos permiten visualizar el sistema de manera abstracta, pudiendo analizarlo antes de la implementación y pudiendo detectar y solucionar problemas
 antes de introducirlos en el sistema.
 .ds CH Diagramas de Clases
 .bp
@@ -82,7 +82,7 @@ Los diagramas de clase son los únicos diagramas UML que se asocian
 directamente con los lenguajes orientados a objetos.
 
 Los diagramas de clase son uno de los diagramas más usados en la programación, 
-ya que constituyen la base de los diagramas de componentes y de despliegue,i
+ya que constituyen la base de los diagramas de componentes y de despliegue,
 y describen las responsabilidades en un sistema.
 Aunque por su naturaleza, son unos diagramas muy cercanos al software, y, por eso,
 tienen menos valor para una persona no familiarizada al desarrollo.
@@ -94,12 +94,12 @@ Una sección central que contiene los atributos de la clase.
 Se usa esta sección para describir las cualidades de la clase. 
 Esto solo es necesario al describir una instancia específica de una clase.
 Y por ultimo una sección inferior que incluye los métodos de la clase. 
-Cada operación requiere su propia línea y se necesita el tipo de parametros y el
+Cada operación requiere su propia línea y se necesita el tipo de parámetros y el
 tipo de dato que va a devolver ese método.
 
 Todas los atributos y métodos de las clases poseen diferentes niveles de acceso dependiendo de 
-la visibilidad que tienen, esto se representan usando diferentes simbolos antes del nombre del
-determinado método o atributo. Los simbolos son:
+la visibilidad que tienen, esto se representan usando diferentes símbolos antes del nombre del
+determinado método o atributo. Los símbolos son:
 .RS
 .IP \(bu 2
 .B + " Público"
@@ -177,7 +177,7 @@ individuales del sistema mediante una vista de diseño estática. Pueden demostr
 aspectos de modelado lógico y físico.
 
 En el contexto del UML, los componentes son partes de un sistema independientes entre sí, 
-que pueden sostituirse con componentes equivalentes. Son autocontenidos 
+que pueden sustituirse con componentes equivalentes. Son autocontenidos 
 y encapsulan estructuras de cualquier grado de complejidad.
 Los elementos encapsulados solo se comunican con los otros a través de interfaces.
 
@@ -213,7 +213,7 @@ Tenemos cinco tipos de relaciones entre los diferentes componentes:
 .SH
 Interfaz Ofrecida
 .LP
-Simbolo para una o mas interfaces claramente definidas que proporcionan funciones,
+Símbolo para una o mas interfaces claramente definidas que proporcionan funciones,
 servicios o datos al mundo exterior.
 .PS
 line left 1.5
@@ -223,7 +223,7 @@ arc cw rad 0.1 from 1st line .end to 1st line .end - (0.1, 0.1)
 .SH
 Interfaz Requerida
 .LP
-Simbolo de una interfaz necesaria para recibir funciones, servicios o datos del
+Símbolo de una interfaz necesaria para recibir funciones, servicios o datos del
 exterior.
 .PS
 circle rad 0.1 
@@ -235,21 +235,21 @@ line left 1.5 from 1st circle .w
 .SH
 Puerto
 .LP
-Este simbolo indica un punto de interaccion independiente entre un componente y su entorno.
+Este símbolo indica un punto de interacción independiente entre un componente y su entorno.
 .PS
 box wid 0.2 ht 0.2
 .PE
 .SH
-Relacion
+Relación
 .LP
-Las lineas actuan como conectores e indican las relaciones entre los componentes.
+Las lineas actúan como conectores e indican las relaciones entre los componentes.
 .PS
 line left 1.5
 .PE
 .SH
-Relacion de Dependencia
+Relación de Dependencia
 .LP
-Conector especial para expresar una relacion de dependencia entre los componentes del sistema.
+Conector especial para expresar una relación de dependencia entre los componentes del sistema.
 .PS
 arrowht = 0.1
 arrowwid = 0.1
@@ -283,7 +283,7 @@ Un diagrama de objetos UML representa una instancia específica de un diagrama d
 clases en un momento determinado.
 Un diagrama de objetos se enfoca en los atributos de un conjunto de objetos y 
 cómo esos objetos se relacionan entre sí.
-Los diagramas de objetos son faciles de crear: estan compuestos de objetos, 
+Los diagramas de objetos son fáciles de crear: están compuestos de objetos, 
 representados por rectángulos, conectados mediante líneas.
 
 Permiten una revisión de una iteración específica de un sistema general,
@@ -291,7 +291,7 @@ dando una vista de nivel alto del sistema que desarrollarás.
 También sirven como ejemplo de un diagrama de clases que creaste para la estructura general del sistema, 
 por medio de diagramas de objetos para casos de uso específicos.
 
-Aqui podemos ver un ejemplo de objeto:
+Aquí podemos ver un ejemplo de objeto:
 .PS
 box "Coche:Vehiculo"
 line from 1st box .se
@@ -342,7 +342,7 @@ que colaboran, ya que se trata de diagramas estructurales.
 Diagramas de Perfil
 .nr PS 11
 .LP
-Un diagrama de perfiles permite extender la especificacion UML para su uso con una plataforma de 
+Un diagrama de perfiles permite extender la especificación UML para su uso con una plataforma de 
 programación en particular o modelar sistemas destinados a ser usados en un dominio en específico.
 
 Para comprender cómo funcionan los perfiles y el diagrama de perfiles es 
@@ -477,28 +477,28 @@ UML que representan cada parte de un sistema, además de las relaciones entre el
 .SH
 Terminador
 .LP
-Indica puntos de inicio y finalizacion.
+Indica puntos de inicio y finalización.
 .PS
 box wid 1.5 rad 0.25
 .PE
 .SH
 Nodo
 .LP
-Representa enventos o hitos y contiene numeros.
+Representa eventos o hitos y contiene números.
 .PS
 circle rad 0.3
 .PE
 .SH
 Nodo Rectangular
 .LP
-Representa enventos o hitos y contiene numeros.
+Representa eventos o hitos y contiene números.
 .PS
 box wid 1.5
 .PE
 .SH
 Actor
 .LP
-Interactua con el sistema desde afuera del sistema.
+Interactúa con el sistema desde afuera del sistema.
 .PS
 circle rad 0.1
 line down 0.1 from 1st circle .s 
@@ -512,21 +512,21 @@ line down 0.25 from 1st line .end to 1st line .end - (-0.1, 0.5)
 .SH
 Conector
 .LP
-Ilustra la comunicacion entre las partes.
+Ilustra la comunicación entre las partes.
 .PS
 line right 1.5
 .PE
 .SH
 Parte
 .LP
-Actua como una instancia de ejecucion de clases o interfaces.
+Actúa como una instancia de ejecución de clases o interfaces.
 .PS
 box wid 1.5 ":Vehiculo [1]"
 .PE
 .SH
 Puerto
 .LP
-Actua como un punto de interaccion entre una instancia de clasificador y su entorno.
+Actúa como un punto de interacción entre una instancia de clasificador y su entorno.
 .PS
 box wid 0.25 ht 0.25
 .PE
@@ -537,7 +537,7 @@ Agrupa los objetos con propriedades y/o comportamientos comunes.
 .SH
 Interfaz
 .LP
-Especifica el comportamiento que el implementador acepta cumplir.
+Especifica el comportamiento que el implementados acepta cumplir.
 .SH
 .ce 1
 Diagramas de estructura compuesta versus diagrama de clases
