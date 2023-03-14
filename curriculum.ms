@@ -41,13 +41,13 @@ Carrer Pastora, 45, 07360 Lloseta (España)
 Hombre
 .LP
 .B "Fecha de Nacimiento:"
-05/04/2003 
-.LP 
+05/04/2003
+.LP
 .B Nacionalidad: " Italiana"
 .LP
-.B "Carnet de counducir:" " B1 desde 2021, vehiculo proprio"
+.B "Carnet de conducir:" " B1 desde 2021, vehículo propio"
 .LP
-.B Idiomas: " Italiano, Español, Ingles"
+.B Idiomas: " Italiano, Español, Inglés"
 
 \D't 0.2p'\v'-0.17i'\l'4.5i'\h'-4.5i'
 .RE
@@ -56,16 +56,17 @@ Hombre
 .B "DESCRIPCIÓN PERSONAL"
 .nr PS 11
 .LP
-Actualmente estudiando desarrollo web full-stack. Además de estar familiarizado con las tecnologías HTML, CSS, y JavaScript, he usado frameworks y librerías como React.js, Next.js, Express, y Node.
-.nr PD 0 
+Actualmente estoy estudiando desarrollo web full-stack. Además de estar familiarizado con las tecnologías web como HTML, CSS y JavaScript, también he utilizado frameworks y librerías como Angular, React.js, Next.js, JSPs, JQuery, Svelte y Astro. Además, tengo experiencia en tecnologías backend como Express.js, Node.js, Struts2, Springboot, Flask y Gin (Golang).
+.nr PD 0
 .LP
-También tengo experiencia al crear, gestionar y mantener base de datos relacionales (MySQL, MariaDB y PostgreSQL).  
-Algunos de mis proyectos personales comprenden API REST en React, Static Site Generator con Python y HUGO, aplicaciones gráficas en C++ con SFML.
+También tengo experiencia en la creación, gestión, despliegue y mantenimiento tanto de bases de datos relacionales (MySQL, Oracle y PostgreSQL) como de no relacionales (MongoDB), así como de caches (Redis, Memcached y Ehcache). Algunos de mis proyectos personales incluyen aplicaciones web con React, GraphQL y Express, Static Site Generator con Python y HUGO, así como aplicaciones gráficas en C++ con SFML. Uno de mis proyectos más recientes es una aplicación web desarrollada con Astro, Svelte y Go.
 .LP
-Familiarizado con sistemas operativos UNIX-based como Debian, CentOS, FreeBSD y Gentoo entre otros.
+Tengo experiencia en servidores web y de aplicaciones como Apache httpd, Nginx y Tomcat. También he trabajado en el uso, mantenimiento, creación y despliegue de contenedores Docker, tanto en entornos de desarrollo como en producción en proveedores de nube como AWS, DigitalOcean y Azure.
 .LP
-Otras herramientas con las que tengo experiencia son Git y GitHub, Docker, VIM, Nginx, Bash y RegEx.
-.nr PD 1.2v 
+Estoy familiarizado con sistemas operativos basados en UNIX como Debian, Arch, CentOS, FreeBSD y Gentoo, entre otros. 
+.LP
+Además, tengo experiencia en el uso de herramientas como Git y varios proveedores (GitHub, GitLab, BitBucket), GitHub Actions, VIM, scripts de shell, AzureML, Laravel y WebComponents.
+.nr PD 1.2v
 .nr PS 10
 .LP
 .B "EXPERIENCIA LABORAL"
@@ -73,11 +74,20 @@ Otras herramientas con las que tengo experiencia son Git y GitHub, Docker, VIM, 
 .LP
 .nr PD 0.4v
 .nr PS 13
-.B "2021 Becario en Camper"
+.B "Analista-Programador en Kumo Consultoría"
 .LP
-Helpdesk support en Camper, soporte hardware y software.
-.nr PD 1.2v 
+2022-Actualmente | Programador Full-Stack, manteniendo aplicaciones en Struts2 y desarrollando nuevas utilizando Angular y Springboot.
+.nr PS 15
+.LP
+.nr PD 0.4v
+.nr PS 13
+.B "Becario en Camper"
+.LP
+2021 | Helpdesk support en Camper, soporte de hardware y software.
+.nr PD 1.2v
 .nr PS 10
+.ds CH 
+.bp
 .LP
 .B "ESTUDIOS"
 .nr PS 15
@@ -86,15 +96,15 @@ Helpdesk support en Camper, soporte hardware y software.
 .nr PS 13
 .B "CFGS Desarrollo Aplicaciones Web Dual"
 .LP
-CIFP Francesc de Borja Moll 2021-Actualmente
+2021-Actualmente | CIFP Francesc de Borja Moll
 .nr PS 15
 .nr PD 1v
 .LP
 .nr PS 13
-.B "CFGM Sistemas Informaticos y Redes"
+.B "CFGM Sistemas Informáticos y Redes"
 .nr PD 0.4v
 .LP
-CC Es Liceu 2019-2021
+2019-2021 | CC Es Liceu
 .nr PD 1.2v 
 .nr PS 10
 .LP
@@ -112,7 +122,7 @@ CC Es Liceu 2019-2021
 .pdfhref W -D https://www.linkedin.com/in/samuele-tonarini Samuele Tonarini
 .LP
 .B Website:
-.pdfhref W -D https://www.hostileobject.xyz hostileobject.xyz
+.pdfhref W -D https://stonarini.dev stonarini.dev
 .LP
 .B "Echa un vistazo a este documento en groff:"
 .pdfhref W -D https://www.github.com/stonarini/stroff/blob/main/curriculum.ms curriculum.ms
